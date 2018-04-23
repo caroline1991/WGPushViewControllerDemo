@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32532200208DD0C60023EE50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 325321FF208DD0C60023EE50 /* AppDelegate.m */; };
+		32532203208DD0C60023EE50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532202208DD0C60023EE50 /* ViewController.m */; };
+		32532206208DD0C60023EE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32532204208DD0C60023EE50 /* Main.storyboard */; };
+		32532208208DD0C60023EE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32532207208DD0C60023EE50 /* Assets.xcassets */; };
+		3253220B208DD0C60023EE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32532209208DD0C60023EE50 /* LaunchScreen.storyboard */; };
+		3253220E208DD0C60023EE50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253220D208DD0C60023EE50 /* main.m */; };
+		32532218208DD0C60023EE50 /* WGPushViewcontrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532217208DD0C60023EE50 /* WGPushViewcontrollerTests.m */; };
+		32532223208DD0C60023EE50 /* WGPushViewcontrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532222208DD0C60023EE50 /* WGPushViewcontrollerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32532214208DD0C60023EE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 325321F3208DD0C50023EE50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325321FA208DD0C60023EE50;
+			remoteInfo = WGPushViewcontroller;
+		};
+		3253221F208DD0C60023EE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 325321F3208DD0C50023EE50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325321FA208DD0C60023EE50;
+			remoteInfo = WGPushViewcontroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		325321FB208DD0C60023EE50 /* WGPushViewcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGPushViewcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		325321FE208DD0C60023EE50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		325321FF208DD0C60023EE50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32532201208DD0C60023EE50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32532202208DD0C60023EE50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32532205208DD0C60023EE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32532207208DD0C60023EE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3253220A208DD0C60023EE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3253220C208DD0C60023EE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3253220D208DD0C60023EE50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32532213208DD0C60023EE50 /* WGPushViewcontrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGPushViewcontrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32532217208DD0C60023EE50 /* WGPushViewcontrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPushViewcontrollerTests.m; sourceTree = "<group>"; };
+		32532219208DD0C60023EE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3253221E208DD0C60023EE50 /* WGPushViewcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGPushViewcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32532222208DD0C60023EE50 /* WGPushViewcontrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPushViewcontrollerUITests.m; sourceTree = "<group>"; };
+		32532224208DD0C60023EE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325321F8208DD0C60023EE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32532210208DD0C60023EE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253221B208DD0C60023EE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325321F2208DD0C50023EE50 = {
+			isa = PBXGroup;
+			children = (
+				325321FD208DD0C60023EE50 /* WGPushViewcontroller */,
+				32532216208DD0C60023EE50 /* WGPushViewcontrollerTests */,
+				32532221208DD0C60023EE50 /* WGPushViewcontrollerUITests */,
+				325321FC208DD0C60023EE50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		325321FC208DD0C60023EE50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325321FB208DD0C60023EE50 /* WGPushViewcontroller.app */,
+				32532213208DD0C60023EE50 /* WGPushViewcontrollerTests.xctest */,
+				3253221E208DD0C60023EE50 /* WGPushViewcontrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325321FD208DD0C60023EE50 /* WGPushViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				325321FE208DD0C60023EE50 /* AppDelegate.h */,
+				325321FF208DD0C60023EE50 /* AppDelegate.m */,
+				32532201208DD0C60023EE50 /* ViewController.h */,
+				32532202208DD0C60023EE50 /* ViewController.m */,
+				32532204208DD0C60023EE50 /* Main.storyboard */,
+				32532207208DD0C60023EE50 /* Assets.xcassets */,
+				32532209208DD0C60023EE50 /* LaunchScreen.storyboard */,
+				3253220C208DD0C60023EE50 /* Info.plist */,
+				3253220D208DD0C60023EE50 /* main.m */,
+			);
+			path = WGPushViewcontroller;
+			sourceTree = "<group>";
+		};
+		32532216208DD0C60023EE50 /* WGPushViewcontrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				32532217208DD0C60023EE50 /* WGPushViewcontrollerTests.m */,
+				32532219208DD0C60023EE50 /* Info.plist */,
+			);
+			path = WGPushViewcontrollerTests;
+			sourceTree = "<group>";
+		};
+		32532221208DD0C60023EE50 /* WGPushViewcontrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32532222208DD0C60023EE50 /* WGPushViewcontrollerUITests.m */,
+				32532224208DD0C60023EE50 /* Info.plist */,
+			);
+			path = WGPushViewcontrollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325321FA208DD0C60023EE50 /* WGPushViewcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32532227208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontroller" */;
+			buildPhases = (
+				325321F7208DD0C60023EE50 /* Sources */,
+				325321F8208DD0C60023EE50 /* Frameworks */,
+				325321F9208DD0C60023EE50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGPushViewcontroller;
+			productName = WGPushViewcontroller;
+			productReference = 325321FB208DD0C60023EE50 /* WGPushViewcontroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32532212208DD0C60023EE50 /* WGPushViewcontrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3253222A208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontrollerTests" */;
+			buildPhases = (
+				3253220F208DD0C60023EE50 /* Sources */,
+				32532210208DD0C60023EE50 /* Frameworks */,
+				32532211208DD0C60023EE50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32532215208DD0C60023EE50 /* PBXTargetDependency */,
+			);
+			name = WGPushViewcontrollerTests;
+			productName = WGPushViewcontrollerTests;
+			productReference = 32532213208DD0C60023EE50 /* WGPushViewcontrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3253221D208DD0C60023EE50 /* WGPushViewcontrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3253222D208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontrollerUITests" */;
+			buildPhases = (
+				3253221A208DD0C60023EE50 /* Sources */,
+				3253221B208DD0C60023EE50 /* Frameworks */,
+				3253221C208DD0C60023EE50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32532220208DD0C60023EE50 /* PBXTargetDependency */,
+			);
+			name = WGPushViewcontrollerUITests;
+			productName = WGPushViewcontrollerUITests;
+			productReference = 3253221E208DD0C60023EE50 /* WGPushViewcontrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325321F3208DD0C50023EE50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wanggang;
+				TargetAttributes = {
+					325321FA208DD0C60023EE50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					32532212208DD0C60023EE50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 325321FA208DD0C60023EE50;
+					};
+					3253221D208DD0C60023EE50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 325321FA208DD0C60023EE50;
+					};
+				};
+			};
+			buildConfigurationList = 325321F6208DD0C50023EE50 /* Build configuration list for PBXProject "WGPushViewcontroller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325321F2208DD0C50023EE50;
+			productRefGroup = 325321FC208DD0C60023EE50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325321FA208DD0C60023EE50 /* WGPushViewcontroller */,
+				32532212208DD0C60023EE50 /* WGPushViewcontrollerTests */,
+				3253221D208DD0C60023EE50 /* WGPushViewcontrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325321F9208DD0C60023EE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3253220B208DD0C60023EE50 /* LaunchScreen.storyboard in Resources */,
+				32532208208DD0C60023EE50 /* Assets.xcassets in Resources */,
+				32532206208DD0C60023EE50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32532211208DD0C60023EE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253221C208DD0C60023EE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325321F7208DD0C60023EE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32532203208DD0C60023EE50 /* ViewController.m in Sources */,
+				3253220E208DD0C60023EE50 /* main.m in Sources */,
+				32532200208DD0C60023EE50 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253220F208DD0C60023EE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32532218208DD0C60023EE50 /* WGPushViewcontrollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253221A208DD0C60023EE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32532223208DD0C60023EE50 /* WGPushViewcontrollerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32532215208DD0C60023EE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 325321FA208DD0C60023EE50 /* WGPushViewcontroller */;
+			targetProxy = 32532214208DD0C60023EE50 /* PBXContainerItemProxy */;
+		};
+		32532220208DD0C60023EE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 325321FA208DD0C60023EE50 /* WGPushViewcontroller */;
+			targetProxy = 3253221F208DD0C60023EE50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32532204208DD0C60023EE50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32532205208DD0C60023EE50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32532209208DD0C60023EE50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3253220A208DD0C60023EE50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32532225208DD0C60023EE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32532226208DD0C60023EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32532228208DD0C60023EE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32532229208DD0C60023EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3253222B208DD0C60023EE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGPushViewcontroller.app/WGPushViewcontroller";
+			};
+			name = Debug;
+		};
+		3253222C208DD0C60023EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGPushViewcontroller.app/WGPushViewcontroller";
+			};
+			name = Release;
+		};
+		3253222E208DD0C60023EE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGPushViewcontroller;
+			};
+			name = Debug;
+		};
+		3253222F208DD0C60023EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = WGPushViewcontrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WGPushViewcontroller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325321F6208DD0C50023EE50 /* Build configuration list for PBXProject "WGPushViewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32532225208DD0C60023EE50 /* Debug */,
+				32532226208DD0C60023EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32532227208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32532228208DD0C60023EE50 /* Debug */,
+				32532229208DD0C60023EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3253222A208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253222B208DD0C60023EE50 /* Debug */,
+				3253222C208DD0C60023EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3253222D208DD0C60023EE50 /* Build configuration list for PBXNativeTarget "WGPushViewcontrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3253222E208DD0C60023EE50 /* Debug */,
+				3253222F208DD0C60023EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325321F3208DD0C50023EE50 /* Project object */;
+}
