@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <objc/message.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    /*
+     下面四句代码等价于
+    ViewController *con = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:con];
+    */
+    
+    id classAlloc = objc_msgSend(objc_getClass("ViewController"), sel_registerName("alloc"));
+    id classInit = objc_msgSend(classAlloc, sel_registerName("init"));
+    
+    id navAlloc = objc_msgSend(objc_getClass("UINavigationController"), sel_registerName("alloc"));
+    id navInit = objc_msgSend(navAlloc, sel_registerName("initWithRootViewController:"), classInit);
+        
+    self.window.rootViewController = navInit;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		32532200208DD0C60023EE50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 325321FF208DD0C60023EE50 /* AppDelegate.m */; };
 		32532203208DD0C60023EE50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532202208DD0C60023EE50 /* ViewController.m */; };
-		32532206208DD0C60023EE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32532204208DD0C60023EE50 /* Main.storyboard */; };
 		32532208208DD0C60023EE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32532207208DD0C60023EE50 /* Assets.xcassets */; };
 		3253220B208DD0C60023EE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32532209208DD0C60023EE50 /* LaunchScreen.storyboard */; };
 		3253220E208DD0C60023EE50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253220D208DD0C60023EE50 /* main.m */; };
 		32532218208DD0C60023EE50 /* WGPushViewcontrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532217208DD0C60023EE50 /* WGPushViewcontrollerTests.m */; };
 		32532223208DD0C60023EE50 /* WGPushViewcontrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532222208DD0C60023EE50 /* WGPushViewcontrollerUITests.m */; };
+		32532232208DD65D0023EE50 /* WGOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532231208DD65D0023EE50 /* WGOneViewController.m */; };
+		32532235208DD6770023EE50 /* WGTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532234208DD6770023EE50 /* WGTwoViewController.m */; };
+		32532238208DD6840023EE50 /* WGThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32532237208DD6840023EE50 /* WGThreeViewController.m */; };
+		3253223B208DEF6C0023EE50 /* WGControllerId.m in Sources */ = {isa = PBXBuildFile; fileRef = 3253223A208DEF6C0023EE50 /* WGControllerId.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		325321FF208DD0C60023EE50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32532201208DD0C60023EE50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		32532202208DD0C60023EE50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32532205208DD0C60023EE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32532207208DD0C60023EE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3253220A208DD0C60023EE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3253220C208DD0C60023EE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 		3253221E208DD0C60023EE50 /* WGPushViewcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGPushViewcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32532222208DD0C60023EE50 /* WGPushViewcontrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPushViewcontrollerUITests.m; sourceTree = "<group>"; };
 		32532224208DD0C60023EE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32532230208DD65D0023EE50 /* WGOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOneViewController.h; sourceTree = "<group>"; };
+		32532231208DD65D0023EE50 /* WGOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOneViewController.m; sourceTree = "<group>"; };
+		32532233208DD6770023EE50 /* WGTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGTwoViewController.h; sourceTree = "<group>"; };
+		32532234208DD6770023EE50 /* WGTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGTwoViewController.m; sourceTree = "<group>"; };
+		32532236208DD6840023EE50 /* WGThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGThreeViewController.h; sourceTree = "<group>"; };
+		32532237208DD6840023EE50 /* WGThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGThreeViewController.m; sourceTree = "<group>"; };
+		32532239208DEF6C0023EE50 /* WGControllerId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGControllerId.h; sourceTree = "<group>"; };
+		3253223A208DEF6C0023EE50 /* WGControllerId.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGControllerId.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +115,14 @@
 				325321FF208DD0C60023EE50 /* AppDelegate.m */,
 				32532201208DD0C60023EE50 /* ViewController.h */,
 				32532202208DD0C60023EE50 /* ViewController.m */,
-				32532204208DD0C60023EE50 /* Main.storyboard */,
+				32532230208DD65D0023EE50 /* WGOneViewController.h */,
+				32532231208DD65D0023EE50 /* WGOneViewController.m */,
+				32532233208DD6770023EE50 /* WGTwoViewController.h */,
+				32532234208DD6770023EE50 /* WGTwoViewController.m */,
+				32532236208DD6840023EE50 /* WGThreeViewController.h */,
+				32532237208DD6840023EE50 /* WGThreeViewController.m */,
+				32532239208DEF6C0023EE50 /* WGControllerId.h */,
+				3253223A208DEF6C0023EE50 /* WGControllerId.m */,
 				32532207208DD0C60023EE50 /* Assets.xcassets */,
 				32532209208DD0C60023EE50 /* LaunchScreen.storyboard */,
 				3253220C208DD0C60023EE50 /* Info.plist */,
@@ -240,7 +257,6 @@
 			files = (
 				3253220B208DD0C60023EE50 /* LaunchScreen.storyboard in Resources */,
 				32532208208DD0C60023EE50 /* Assets.xcassets in Resources */,
-				32532206208DD0C60023EE50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +283,11 @@
 			files = (
 				32532203208DD0C60023EE50 /* ViewController.m in Sources */,
 				3253220E208DD0C60023EE50 /* main.m in Sources */,
+				32532235208DD6770023EE50 /* WGTwoViewController.m in Sources */,
 				32532200208DD0C60023EE50 /* AppDelegate.m in Sources */,
+				3253223B208DEF6C0023EE50 /* WGControllerId.m in Sources */,
+				32532232208DD65D0023EE50 /* WGOneViewController.m in Sources */,
+				32532238208DD6840023EE50 /* WGThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +323,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32532204208DD0C60023EE50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32532205208DD0C60023EE50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32532209208DD0C60023EE50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = WGPushViewcontroller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontroller;
@@ -446,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = WGPushViewcontroller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanggang.WGPushViewcontroller;
