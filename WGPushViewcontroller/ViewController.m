@@ -11,7 +11,6 @@
 
 #import "ViewController.h"
 #import "WGControllerId.h"
-#import "WGOneViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -28,8 +27,6 @@
     
     [self.view addSubview:self.tableView];
     
-    WGOneViewController *con = [[WGOneViewController alloc] init];
-    [self.navigationController pushViewController:con animated:YES];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{

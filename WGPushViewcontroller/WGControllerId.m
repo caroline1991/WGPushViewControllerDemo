@@ -33,11 +33,15 @@ static WGControllerId *instence = nil;
 }
 
 - (void)pushFromController:(UIViewController *)fromCon toPageId:(NSString *)pageId hasParam:(BOOL)isHas param:(NSDictionary *)param{
+    //根据定义好的pageId，拿到类名字符串
     NSString *className = [self getControolerName:pageId];
+    //根据类名转化为Class类型
     Class classCon = NSClassFromString(className);
+    //初始化并分配内存
     id toCon = [[classCon alloc] init];
     
     if (isHas) {
+        //需要属性传值，则通过运行时来解决
         NSArray *keyArr = [param allKeys];
         for (int i = 0; i<keyArr.count; i++) {
             NSString *key = [keyArr objectAtIndex:i];
