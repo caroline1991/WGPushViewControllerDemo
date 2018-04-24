@@ -54,7 +54,9 @@ static WGControllerId *instence = nil;
             SEL method = NSSelectorFromString(selName);
             if ([toCon respondsToSelector:method]) {
                 //等价于controller.shuxing = value;
-                objc_msgSend(toCon, method, value);
+                id (*action)(id, SEL, id) = (id (*)(id, SEL, id)) objc_msgSend;
+                action(toCon, method, value);
+//                objc_msgSend(toCon, method, value);
             }
         }
     }

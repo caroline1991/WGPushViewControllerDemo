@@ -31,8 +31,13 @@
     id classInit = objc_msgSend(classAlloc, sel_registerName("init"));
     
     id navAlloc = objc_msgSend(objc_getClass("UINavigationController"), sel_registerName("alloc"));
-    id navInit = objc_msgSend(navAlloc, sel_registerName("initWithRootViewController:"), classInit);
-        
+    /*
+     这一句在真机上会崩溃，必须先定义原型才可以使用，这样才不会发生崩溃
+     id navInit = objc_msgSend(navAlloc, sel_registerName("initWithRootViewController:"), classInit);
+     */
+    id (*action)(id, SEL, UIViewController*) = (id (*)(id, SEL, UIViewController*)) objc_msgSend;
+    id navInit = action(navAlloc, sel_registerName("initWithRootViewController:"), classInit);
+    
     self.window.rootViewController = navInit;
     [self.window makeKeyAndVisible];
     
